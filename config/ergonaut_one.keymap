@@ -84,19 +84,19 @@
 
         game {
             bindings = <
-&kp ESCAPE       &kp Q  &kp W  &kp E      &kp R      &kp T           &none  &none  &none  &none  &none  &none
-&kp RIGHT_ALT    &kp A  &kp S  &kp D      &kp F      &kp G           &none  &none  &none  &none  &none  &none
-&lt 7 LC(LS(M))  &kp Z  &kp X  &kp C      &kp V      &kp B           &none  &none  &none  &none  &none  &none
-                               &kp LCTRL  &kp SPACE  &kp LEFT_SHIFT  &none  &none  &none
+&kp ESCAPE        &kp Q  &kp W  &kp E              &kp R      &kp T                  &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D              &kp F      &kp G                  &none  &none  &none  &none  &none  &none
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C              &kp V      &kp B                  &none  &none  &none  &none  &none  &none
+                                &lt 7 KP_NUMBER_4  &kp SPACE  &mt LCTRL KP_NUMBER_2  &none  &none  &none
             >;
         };
 
         game_num {
             bindings = <
-&to 0          &kp N1  &kp N2  &kp N3     &kp N4     &kp N5          &none  &none  &none  &none  &none  &none
-&kp RALT       &kp A   &kp S   &kp D      &kp F      &kp G           &none  &none  &none  &none  &none  &none
-&kp LS(LC(D))  &kp Z   &kp X   &kp C      &kp V      &kp B           &none  &none  &none  &none  &none  &none
-                               &kp LCTRL  &kp SPACE  &kp LEFT_SHIFT  &none  &none  &none
+&to 0    &kp Q   &kp W   &kp E   &kp R   &kp T   &none  &none  &none  &none  &none  &none
+&kp TAB  &kp N4  &kp N3  &kp N2  &kp N1  &kp N5  &none  &none  &none  &none  &none  &none
+&none    &kp Z   &kp X   &kp C   &kp V   &kp B   &none  &none  &none  &none  &none  &none
+                         &none   &none   &none   &none  &none  &none
             >;
         };
     };
