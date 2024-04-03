@@ -49,6 +49,21 @@
             bindings = <&kp GRAVE>;
             key-positions = <4 5>;
         };
+
+        LeftClick {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 15>;
+        };
+
+        RightClick {
+            bindings = <&mkp RCLK>;
+            key-positions = <15 14>;
+        };
+
+        MiddleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <14 13>;
+        };
     };
 
     keymap {
@@ -59,7 +74,7 @@
 &none  &kp Q           &kp W           &kp E        &kp R             &kp T          &kp Y                 &kp U              &kp I                &kp O            &kp P                    &none
 &none  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G          &kp H                 &mt RIGHT_SHIFT J  &mt RCTRL K          &mt RIGHT_ALT L  &mt RIGHT_WIN SEMICOLON  &none
 &none  &kp Z           &kp X           &kp C        &kp V             &kp B          &kp N                 &kp M              &kp COMMA            &kp DOT          &kp SLASH                &none
-                                       &none        &lt 1 SPACE       &mt LCTRL TAB  &mt LEFT_SHIFT ENTER  &lt 2 BACKSPACE    &mt LEFT_WIN DELETE
+                                       &mkp LCLK    &lt 1 SPACE       &mt LCTRL TAB  &mt LEFT_SHIFT ENTER  &lt 2 BACKSPACE    &mt LEFT_WIN DELETE
             >;
         };
 
