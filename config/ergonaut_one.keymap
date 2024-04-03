@@ -65,6 +65,11 @@
             bindings = <&mkp MCLK>;
             key-positions = <13 14>;
         };
+
+        Mouse4 {
+            bindings = <&mkp MB4>;
+            key-positions = <14 16>;
+        };
     };
 
     keymap {
